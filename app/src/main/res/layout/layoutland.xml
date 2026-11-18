@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traffic Scotland"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btnIncidents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Incidents"/>
+
+        <Button
+            android:id="@+id/btnRoadworks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roadworks"/>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search by Road"/>
+
+        <Button
+            android:id="@+id/btnNearby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearby Situations"/>
+
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Map"/>
+
+    </LinearLayout>
+
+</ScrollView>
